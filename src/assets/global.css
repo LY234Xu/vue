@@ -1,0 +1,10 @@
+/* 去除默认样式，删除间距 */
+body{
+    margin:0px;
+    padding:0px;
+}
+
+/* 让元素的 width 和 height 包含边框（border）和内边距（padding），避免因添加边框 / 内边距导致元素 “意外撑大”，极大简化布局计算。 */
+*{
+    box-sizing:border-box;
+}
